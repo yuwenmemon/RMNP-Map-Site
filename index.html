@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocky Mountain National Park</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="top-nav">
+            <h1 class="logo-title">Mapping Rocky Mountain National Park</h1>
+            <img src="images/logo192.png" alt="Yuwen Memon's GIS Logo" class="ym-gis-logo">
+        </nav>
+        <div class="header-title">
+            <h1>A Project by Yuwen Memon</h1>
+            <p>Cartography - GEOG XL 180 @ UCLA Extension</p>
+        </div>
+    </header>
+    <main>
+        <section class="map-description">
+            <h2>Creating a Replica Map of Rocky Mountain National Park</h2>
+            <p>
+                When looking for examples of beauty and effectiveness in cartography, the reference maps created by the U.S. National Park Service are hard to top.
+                The maps are not only visually appealing, but they are also highly functional and informative.
+                As an exercise in cartography (and as a project for modules 4 & 5 of
+                <a href="https://gis.ucla.edu/node/59" target="_blank">Cartography - GEOG XL 180 @ UCLA Extension</a>), I decided to create a replica map of
+                <a href="https://maps.app.goo.gl/9r4rNBuFRtuggJBH6" target="_blank">Rocky Mountain National Park</a>.
+            </p>
+            <p>
+                A sort of "reproduction" project, I created a hillshade layer for the region using a DEM from the 
+                <a href="https://www.usgs.gov/the-national-map-data-delivery" target="_blank">USGS</a>.
+                I then added vector details like roads, trails, and water features from various sources like
+                <a href="https://romo-nps.opendata.arcgis.com/" target="_blank">the NPS</a>,
+                <a href="https://www.codot.gov/programs/gis" target="_blank">Colorado DOT</a>, and
+                <a href="https://geo.colorado.edu/">UC Boulder</a>.
+                Throughout the process, I tried to mimic the style and symbology of the official NPS map as closely as possible.
+                To hone in the details as best as I could, I loaded the basemap from ArcGIS Pro into Adobe Illustrator and finished the map there.
+            </p>
+            <p>
+                Rocky Mountain National Park features many peaks, rivers, and lakes.
+                This made mapping a time-consuming process since all the various labels needed to be honed-in perfectly.
+                There aren't many roads, however the trail network is extensive both inside and outside the park.
+                Elevation is a key feature of the park, and the map is designed to highlight the park's topography. 
+                Elevation figures are included for many of the park's landmarks, as well as almost all of its named peaks.
+                Because of the density of the details in the map, there are some inconsistencies with the NPS version. See if you can spot them!
+            </p>
+            <p>
+                <a href="https://www.nps.gov/romo/planyourvisit/upload/ROMO_UnigridBrochure_2022.pdf" class="external-link" target="_blank">
+                    View the official NPS map
+                    <span class="glyphicon glyphicon-new-window"></span>
+                </a>
+            </p>
+        </section>
+        <section class="map-container">
+            <a href="images/RMNP-Layout.png">
+                <img src="images/rmnp_map_preview.jpg" alt="Map of Rocky Mountain National Park" class="map-image">
+            </a>
+            <a href="images/RMNP-Layout.png" class="map-link-button">View Full-Size Map</a>
+        </section>
+    </main>
+</body>
+</html>
